@@ -39,9 +39,6 @@ class App extends Component {
       number,
     };
     const dublicateContact = contacts.some(checkedContact => {
-      console.log('conatcts', contacts);
-      console.log('iter', checkedContact.name);
-      console.log('name', name);
       return checkedContact.name.toLowerCase() === name.toLowerCase();
     });
 
