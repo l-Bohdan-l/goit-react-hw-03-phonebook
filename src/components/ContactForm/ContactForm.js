@@ -30,7 +30,6 @@ export class ContactForm extends Component {
   };
 
   render() {
-    console.log(this.state);
     return (
       <form className={styles.form} onSubmit={this.handleSubmit}>
         <label className={styles.inputWrapper}>
